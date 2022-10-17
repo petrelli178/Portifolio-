@@ -315,12 +315,36 @@ a:hover {
 
 /* Media Queries*/
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 960px) {
     .header {
-        display: flex;
-        align-items: center;
+        display: flexbox;
         justify-content: center;
-        width: 10%;
+        align-items: center;
+        
+    }
+
+    .header-cointainer {
+    background-color: #1c3150;
+    transition: 2s;
+    background-image: none;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+       
+    }
+    .titulo {
+        color: aliceblue;
+    }
+
+    .subtitulo {
+        color: aliceblue;
     }
 }  
+
+@media screen and (max-width: 620px) {
+    .links {
+        display: inline-block;
+    }
+    
+}
      
